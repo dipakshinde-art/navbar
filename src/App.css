@@ -1,0 +1,34 @@
+.App .navbar {
+  /* text-align: center; */
+  width: 95%;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: blueviolet;
+  margin: auto;
+}
+.navbar p{
+  color: white;
+  font-weight: bold;
+}
+.container{
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.container>div>p{
+  font-size: 12px;
+  font-weight: normal;
+}
+.navbar button{
+
+  padding:5px 20px;
+  border-radius: 2rem;
+  color:white;
+  background-color: rgb(60, 86, 135);
+  border: none
+}
+
